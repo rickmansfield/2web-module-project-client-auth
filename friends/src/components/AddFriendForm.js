@@ -19,7 +19,7 @@ export const AddFriendForm = (props) => {
 
     const handleSubmit = e => {
         e.preventDefault()
-        console.log('handleSubmit AddFriendForm.js 5x5:', newFriend)
+        console.log('AddFriendForm.js handleSubmit:', newFriend)
         addFriend(newFriend)
     }
 
